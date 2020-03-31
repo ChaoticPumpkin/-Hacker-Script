@@ -12,10 +12,10 @@ while [[ $counter -le 10000 ]]; do
 number=$RANDOM
 let "number %= $RANGE"
 echo -n "$number"
-sleep .01
+sleep .001
 number=$RANDOM
 let "number %= $RANGE"
 echo -n "$number"
-sleep .01
+sleep .001
 ((counter++))
 done
