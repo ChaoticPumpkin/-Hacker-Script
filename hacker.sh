@@ -9,7 +9,7 @@ WaitTime=.001  #Default .001
 #How many times the numbers print
 Amount=10000  #Default 10000
 
-
+# CONFIG - END
 
 clear
 
